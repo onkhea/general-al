@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 200px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.dashboard-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.dashboard {
+    flex: 0 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+}
+
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.dashboard h2 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dashboard i {
+    font-size: 34px;
+    color: #3498db;
+}
+
+.dashboard p {
+    margin: 0;
+    font-size: 15px;
+    color: darkblue;
+}
+
+.dashboard-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
